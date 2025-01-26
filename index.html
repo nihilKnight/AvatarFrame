@@ -13,7 +13,7 @@
     <script src="/static/cropper/cropper.min.js"></script>
     <link rel="stylesheet"
           href="/static/cropper/cropper.min.css">
-    <title>北航72周年校庆头像制作</title>
+    <title>蛇年新春专属头像框制作</title>
     <style>
         /* body {
 
@@ -134,7 +134,7 @@
         }
 
         .row_space {
-            width: 30%;
+            width: 50%;
             padding: 0;
         }
 
@@ -143,6 +143,11 @@
             margin-bottom: 2%;
             display: flex;
             justify-content: space-around;
+        }
+
+        .text-center {
+            text-align: center;
+            color: gray;
         }
 
     </style>
@@ -162,29 +167,33 @@
         </div>
     </div>
     <div class="row" style="width: 85%; background-color: white; border-radius: 25px; margin: auto;">
-        <div class="col-xs-12" style="padding: 12px">
+        <div class="col-xs-12" style="padding: 5px">
             <div class="row image_row">
                 <div class="col-xs-4 inner-pic row_space">
                     <img class=" img-responsive center-block cbtn"
                          src="/static/image/edge/shijia-avatar1.png"
-                         onclick="chooseBorder('/static/image/edge/shijia-avatar1.png')">
+                         onclick="chooseBorder('/static/image/edge/shijia-avatar1.png')"
+                         style="width: 90%; margin: auto;">
                 </div>
                 <div class="col-xs-4 inner-pic row_space">
                     <img class=" img-responsive center-block cbtn"
                          src="/static/image/edge/shijia-avatar2.png"
-                         onclick="chooseBorder('/static/image/edge/shijia-avatar2.png')">
+                         onclick="chooseBorder('/static/image/edge/shijia-avatar2.png')"
+                         style="width: 90%; margin: auto;">
                 </div>
             </div>
             <div class="row image_row">
                 <div class="col-xs-4 inner-pic row_space">
                     <img class=" img-responsive center-block cbtn"
                          src="/static/image/edge/shijia-avatar3.png"
-                         onclick="chooseBorder('/static/image/edge/shijia-avatar3.png')">
+                         onclick="chooseBorder('/static/image/edge/shijia-avatar3.png')"
+                         style="width: 90%; margin: auto;">
                 </div>
                 <div class="col-xs-4 inner-pic row_space">
                     <img class=" img-responsive center-block cbtn"
                          src="/static/image/edge/shijia-avatar4.png"
-                         onclick="chooseBorder('/static/image/edge/shijia-avatar4.png')">
+                         onclick="chooseBorder('/static/image/edge/shijia-avatar4.png')"
+                         style="width: 90%; margin: auto;">
                 </div>
             </div>
         </div>
@@ -234,24 +243,24 @@
             <button class="btn btn-danger center-block" onclick="rotate(90)" style="width: 100px">向右旋转</button>
         </div>
     </div>
-    <div class="row" style="margin-top: 60px;margin-bottom: 20px;display: flex;justify-content: center">
+    <!-- <div class="row" style="margin-top: 60px;margin-bottom: 20px;display: flex;justify-content: center">
         <div class="col-xs-12" style="width: 60%">
             <img class="img-responsive center-block" style="width: 100%"
                  src="/static/image/士嘉书院学生宣传媒体中心.png">
         </div>
-    </div>
-    <!-- <div class="row block">
-        <div class="col-xs-12 center-block block text-center">
-            <img class="footer" src="/static/image/士嘉书院学生宣传媒体中心.png">
-        </div>
     </div> -->
+    <div class="row block">
+        <div class="col-xs-12 center-block block text-center">
+            <img class="footer" src="/static/image/宣媒.png">
+        </div>
+    </div>
 
     <div class="modal fade" id="release-modal" role="dialog" aria-labelledby="release-modal-label" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title" id="release-modal-label">北航72周年校庆专题制作</h4></div>
+                    <h4 class="modal-title" id="release-modal-label">蛇年新春专属头像框制作</h4></div>
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-xs-12">
@@ -262,7 +271,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
-                            <h4 class="text-center">长按保存图片</h4>
+                            <h5 class="text-center">注：PC端用户请右击图片选择保存，移动端用户请长按图片后选择保存。</h5>
                         </div>
                     </div>
                 </div>
